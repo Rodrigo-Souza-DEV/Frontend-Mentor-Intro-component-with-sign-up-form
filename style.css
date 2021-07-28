@@ -1,0 +1,198 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  /*fonts font-family: 'Poppins', sans-serif;*/
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    font-family: 'Poppins', 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+  }
+
+  main {
+    width: 1440px;
+    height: 800px;
+    background: hsl(0, 100%, 74%);
+    background-image: url('images/bg-intro-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 115px 130px;
+  }
+
+  section {
+    width: 1108px;
+    height: 560px;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  aside {
+    width: 540px;
+    height: 100%;
+  }
+
+  article {
+    width: 567px;
+    height: 100%;
+    padding-top: 180px;
+    padding-right: 75px;
+    color: white;
+  }
+
+  article h1 {
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 25px;
+  }
+
+  article p {
+    font-size: 15px;
+    word-spacing: 3px;
+    font-weight: 500;
+  }
+
+  .title-aside {
+    width: 100%;
+    height: 60px;
+    background: hsl(248, 32%, 49%);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 25px;
+    box-shadow: 0px 8px 1px #d5676e;
+  }
+
+  .title-aside span {
+    font-weight: 400;
+    margin-left: 3px;
+  }
+
+  form {
+    width: 100%;
+    height: 474px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 8px 1px #d5676e;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+
+  input {
+    width: 100%;
+    height: 55px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 30px;
+    border: 1px solid hsl(246, 25%, 77%);
+    outline: none;
+    font-size: 14px;
+    color: hsl(249, 10%, 26%);
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+
+
+
+  button {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #3db47f;
+    border-bottom: 4px solid #3db47f;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: hsl(154, 59%, 51%);
+    height: 55px;
+    margin-bottom: 17px;
+    letter-spacing: 2px;
+  }
+
+  .footer-aside {
+    font-size: 10px;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+  }
+
+  .footer-aside span {
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+  }
+  footer {
+    position: relative;
+    bottom: -50px;
+  }
+  @media only screen and (max-width: 1223px){
+    main {
+      width: 100%;
+      height: auto;
+      background-image: url('images/bg-intro-mobile.png');
+      padding: 0;
+    }
+    section {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+    }
+    article {
+      width: 100%;
+      text-align: center;
+      height: auto;
+      padding: 0 9%;
+    }
+    article h1 {
+      font-size: 20px;
+      margin-top: 100px;
+      line-height: 25px;
+      letter-spacing: 4px;
+    }
+    article p {
+      margin-top: 27px;
+      font-size: 15px;
+      text-align: center;
+      padding: 22px 30px;
+    }
+    .title-aside {
+      width: 80%;
+      height: 90px;
+      font-size: 15px;
+      margin: 65px auto 22px auto;
+      flex-direction: column;
+      text-align: center;
+      padding: 22px 40px;
+    }
+    aside {
+      width: 100%;
+    }
+    form {
+      width: 80%;
+      margin: auto;
+      padding: 22px;
+      text-align: left;
+      margin-bottom: 60px;
+    }
+    footer {
+      bottom: 40px;
+      padding: 22px
+    }
+  }
